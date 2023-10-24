@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4DAEB383630F31BF72C2092 /* Pods_rent_flats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C093C77D8734110E749B52C1 /* Pods_rent_flats.framework */; };
+		BCD6A68723674A5DA0A657AB /* Pods_rent_flats_rent_flatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05009EEA1D8AECF72B7ED624 /* Pods_rent_flats_rent_flatsUITests.framework */; };
+		D5F1F7651F028651DA3094B2 /* Pods_rent_flatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD46DF6AB06B17E871C746A /* Pods_rent_flatsTests.framework */; };
 		FC134E612AE7CB050090BD75 /* rent_flatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134E602AE7CB050090BD75 /* rent_flatsApp.swift */; };
 		FC134E632AE7CB050090BD75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134E622AE7CB050090BD75 /* ContentView.swift */; };
 		FC134E652AE7CB060090BD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC134E642AE7CB060090BD75 /* Assets.xcassets */; };
@@ -14,6 +17,12 @@
 		FC134E732AE7CB060090BD75 /* rent_flatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134E722AE7CB060090BD75 /* rent_flatsTests.swift */; };
 		FC134E7D2AE7CB060090BD75 /* rent_flatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134E7C2AE7CB060090BD75 /* rent_flatsUITests.swift */; };
 		FC134E7F2AE7CB060090BD75 /* rent_flatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134E7E2AE7CB060090BD75 /* rent_flatsUITestsLaunchTests.swift */; };
+		FC134E8D2AE7CCE20090BD75 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134E8C2AE7CCE20090BD75 /* HomeScreen.swift */; };
+		FC134E9A2AE7DCAF0090BD75 /* sf_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC134E992AE7DCAF0090BD75 /* sf_regular.otf */; };
+		FC134E9F2AE7E8FE0090BD75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC134EA12AE7E8FE0090BD75 /* Localizable.strings */; };
+		FC134EA52AE7EF6B0090BD75 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134EA42AE7EF6B0090BD75 /* R.generated.swift */; };
+		FC134EA82AE7F03A0090BD75 /* Dimens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134EA72AE7F03A0090BD75 /* Dimens.swift */; };
+		FC134EAA2AE7F2BE0090BD75 /* TextSyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC134EA92AE7F2BE0090BD75 /* TextSyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044ED3E00DFE300F923B4F0C /* Pods-rent-flats-rent-flatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rent-flats-rent-flatsUITests.debug.xcconfig"; path = "Target Support Files/Pods-rent-flats-rent-flatsUITests/Pods-rent-flats-rent-flatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		05009EEA1D8AECF72B7ED624 /* Pods_rent_flats_rent_flatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rent_flats_rent_flatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		095AECFD60C0835EDBC4DA40 /* Pods-rent-flats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rent-flats.release.xcconfig"; path = "Target Support Files/Pods-rent-flats/Pods-rent-flats.release.xcconfig"; sourceTree = "<group>"; };
+		59E820893609B33F89E3E1EF /* Pods-rent-flatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rent-flatsTests.release.xcconfig"; path = "Target Support Files/Pods-rent-flatsTests/Pods-rent-flatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E5A57E00F98DF566B6A3949 /* Pods-rent-flats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rent-flats.debug.xcconfig"; path = "Target Support Files/Pods-rent-flats/Pods-rent-flats.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF97C125EA65579DB462C90 /* Pods-rent-flats-rent-flatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rent-flats-rent-flatsUITests.release.xcconfig"; path = "Target Support Files/Pods-rent-flats-rent-flatsUITests/Pods-rent-flats-rent-flatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAD46DF6AB06B17E871C746A /* Pods_rent_flatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rent_flatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC738CE7D3F5693B80A474BA /* Pods-rent-flatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rent-flatsTests.debug.xcconfig"; path = "Target Support Files/Pods-rent-flatsTests/Pods-rent-flatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C093C77D8734110E749B52C1 /* Pods_rent_flats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rent_flats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC134E5D2AE7CB050090BD75 /* rent-flats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rent-flats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC134E602AE7CB050090BD75 /* rent_flatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rent_flatsApp.swift; sourceTree = "<group>"; };
 		FC134E622AE7CB050090BD75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +63,13 @@
 		FC134E782AE7CB060090BD75 /* rent-flatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rent-flatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC134E7C2AE7CB060090BD75 /* rent_flatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rent_flatsUITests.swift; sourceTree = "<group>"; };
 		FC134E7E2AE7CB060090BD75 /* rent_flatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rent_flatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC134E8C2AE7CCE20090BD75 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FC134E932AE7CF290090BD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FC134E992AE7DCAF0090BD75 /* sf_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf_regular.otf; sourceTree = "<group>"; };
+		FC134EA02AE7E8FE0090BD75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FC134EA42AE7EF6B0090BD75 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		FC134EA72AE7F03A0090BD75 /* Dimens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimens.swift; sourceTree = "<group>"; };
+		FC134EA92AE7F2BE0090BD75 /* TextSyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DAEB383630F31BF72C2092 /* Pods_rent_flats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F1F7651F028651DA3094B2 /* Pods_rent_flatsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD6A68723674A5DA0A657AB /* Pods_rent_flats_rent_flatsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96972F142BDA9F2FA2128C76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A57E00F98DF566B6A3949 /* Pods-rent-flats.debug.xcconfig */,
+				095AECFD60C0835EDBC4DA40 /* Pods-rent-flats.release.xcconfig */,
+				044ED3E00DFE300F923B4F0C /* Pods-rent-flats-rent-flatsUITests.debug.xcconfig */,
+				9AF97C125EA65579DB462C90 /* Pods-rent-flats-rent-flatsUITests.release.xcconfig */,
+				BC738CE7D3F5693B80A474BA /* Pods-rent-flatsTests.debug.xcconfig */,
+				59E820893609B33F89E3E1EF /* Pods-rent-flatsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FC134E542AE7CB050090BD75 = {
 			isa = PBXGroup;
 			children = (
+				FC134EA12AE7E8FE0090BD75 /* Localizable.strings */,
 				FC134E5F2AE7CB050090BD75 /* rent-flats */,
 				FC134E712AE7CB060090BD75 /* rent-flatsTests */,
 				FC134E7B2AE7CB060090BD75 /* rent-flatsUITests */,
 				FC134E5E2AE7CB050090BD75 /* Products */,
+				96972F142BDA9F2FA2128C76 /* Pods */,
+				FD3C34C8A068734E10355C7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +139,11 @@
 		FC134E5F2AE7CB050090BD75 /* rent-flats */ = {
 			isa = PBXGroup;
 			children = (
+				FC134EA62AE7F0260090BD75 /* UI */,
+				FC134EA42AE7EF6B0090BD75 /* R.generated.swift */,
+				FC134E932AE7CF290090BD75 /* Info.plist */,
+				FC134E8E2AE7CD530090BD75 /* fonts */,
+				FC134E8B2AE7CCC80090BD75 /* home */,
 				FC134E602AE7CB050090BD75 /* rent_flatsApp.swift */,
 				FC134E622AE7CB050090BD75 /* ContentView.swift */,
 				FC134E642AE7CB060090BD75 /* Assets.xcassets */,
@@ -129,6 +178,41 @@
 			path = "rent-flatsUITests";
 			sourceTree = "<group>";
 		};
+		FC134E8B2AE7CCC80090BD75 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FC134E8C2AE7CCE20090BD75 /* HomeScreen.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		FC134E8E2AE7CD530090BD75 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC134E992AE7DCAF0090BD75 /* sf_regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		FC134EA62AE7F0260090BD75 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FC134EA72AE7F03A0090BD75 /* Dimens.swift */,
+				FC134EA92AE7F2BE0090BD75 /* TextSyles.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FD3C34C8A068734E10355C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C093C77D8734110E749B52C1 /* Pods_rent_flats.framework */,
+				05009EEA1D8AECF72B7ED624 /* Pods_rent_flats_rent_flatsUITests.framework */,
+				AAD46DF6AB06B17E871C746A /* Pods_rent_flatsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC134E822AE7CB060090BD75 /* Build configuration list for PBXNativeTarget "rent-flats" */;
 			buildPhases = (
+				43469514A3E759C4DEC41149 /* [CP] Check Pods Manifest.lock */,
+				FC134E942AE7D6CD0090BD75 /* Run Script */,
 				FC134E592AE7CB050090BD75 /* Sources */,
 				FC134E5A2AE7CB050090BD75 /* Frameworks */,
 				FC134E5B2AE7CB050090BD75 /* Resources */,
+				35769A3577093D7DB6F7E9AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC134E852AE7CB060090BD75 /* Build configuration list for PBXNativeTarget "rent-flatsTests" */;
 			buildPhases = (
+				C22C22675A80EAAA498739F5 /* [CP] Check Pods Manifest.lock */,
 				FC134E6A2AE7CB060090BD75 /* Sources */,
 				FC134E6B2AE7CB060090BD75 /* Frameworks */,
 				FC134E6C2AE7CB060090BD75 /* Resources */,
@@ -171,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC134E882AE7CB060090BD75 /* Build configuration list for PBXNativeTarget "rent-flatsUITests" */;
 			buildPhases = (
+				A6DCF916ED7104C3BA3533CC /* [CP] Check Pods Manifest.lock */,
 				FC134E742AE7CB060090BD75 /* Sources */,
 				FC134E752AE7CB060090BD75 /* Frameworks */,
 				FC134E762AE7CB060090BD75 /* Resources */,
+				03B9843E943EE6A538071869 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC134E692AE7CB060090BD75 /* Preview Assets.xcassets in Resources */,
+				FC134E9F2AE7E8FE0090BD75 /* Localizable.strings in Resources */,
+				FC134E9A2AE7DCAF0090BD75 /* sf_regular.otf in Resources */,
 				FC134E652AE7CB060090BD75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +346,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B9843E943EE6A538071869 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rent-flats-rent-flatsUITests/Pods-rent-flats-rent-flatsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rent-flats-rent-flatsUITests/Pods-rent-flats-rent-flatsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rent-flats-rent-flatsUITests/Pods-rent-flats-rent-flatsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35769A3577093D7DB6F7E9AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rent-flats/Pods-rent-flats-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rent-flats/Pods-rent-flats-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rent-flats/Pods-rent-flats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43469514A3E759C4DEC41149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rent-flats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DCF916ED7104C3BA3533CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rent-flats-rent-flatsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22C22675A80EAAA498739F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rent-flatsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC134E942AE7D6CD0090BD75 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC134E592AE7CB050090BD75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +476,10 @@
 			files = (
 				FC134E632AE7CB050090BD75 /* ContentView.swift in Sources */,
 				FC134E612AE7CB050090BD75 /* rent_flatsApp.swift in Sources */,
+				FC134EA82AE7F03A0090BD75 /* Dimens.swift in Sources */,
+				FC134EAA2AE7F2BE0090BD75 /* TextSyles.swift in Sources */,
+				FC134E8D2AE7CCE20090BD75 /* HomeScreen.swift in Sources */,
+				FC134EA52AE7EF6B0090BD75 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +514,17 @@
 			targetProxy = FC134E792AE7CB060090BD75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC134EA12AE7E8FE0090BD75 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC134EA02AE7E8FE0090BD75 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FC134E802AE7CB060090BD75 /* Debug */ = {
@@ -334,7 +564,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +625,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -413,6 +643,7 @@
 		};
 		FC134E832AE7CB060090BD75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5A57E00F98DF566B6A3949 /* Pods-rent-flats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +655,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rent-flats/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -451,6 +683,7 @@
 		};
 		FC134E842AE7CB060090BD75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095AECFD60C0835EDBC4DA40 /* Pods-rent-flats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +695,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rent-flats/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -489,6 +723,7 @@
 		};
 		FC134E862AE7CB060090BD75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC738CE7D3F5693B80A474BA /* Pods-rent-flatsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +747,7 @@
 		};
 		FC134E872AE7CB060090BD75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E820893609B33F89E3E1EF /* Pods-rent-flatsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +771,7 @@
 		};
 		FC134E892AE7CB060090BD75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044ED3E00DFE300F923B4F0C /* Pods-rent-flats-rent-flatsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +794,7 @@
 		};
 		FC134E8A2AE7CB060090BD75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF97C125EA65579DB462C90 /* Pods-rent-flats-rent-flatsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

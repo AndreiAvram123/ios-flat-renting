@@ -1,0 +1,6 @@
+framework module Pods_rent_flats_rent_flatsUITests {
+  umbrella header "Pods-rent-flats-rent-flatsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
