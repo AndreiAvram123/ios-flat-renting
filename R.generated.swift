@@ -61,7 +61,7 @@ struct _R {
     }
 
 
-    /// This `_R.string.localizable` struct is generated, and contains static references to 2 localization keys.
+    /// This `_R.string.localizable` struct is generated, and contains static references to 4 localization keys.
     struct localizable {
       let source: RswiftResources.StringResource.Source
 
@@ -72,6 +72,20 @@ struct _R {
       /// Locales: en
       var home_screen_header_find_your_place: RswiftResources.StringResource { .init(key: "home_screen_header_find_your_place", tableName: "Localizable", source: source, developmentValue: "Find your place in", comment: nil) }
 
+      /// en translation: I need to buy
+      ///
+      /// Key: home_screen_toggle_option_buy
+      ///
+      /// Locales: en
+      var home_screen_toggle_option_buy: RswiftResources.StringResource { .init(key: "home_screen_toggle_option_buy", tableName: "Localizable", source: source, developmentValue: "I need to buy", comment: nil) }
+
+      /// en translation: I need to rent
+      ///
+      /// Key: home_screen_toggle_option_rent
+      ///
+      /// Locales: en
+      var home_screen_toggle_option_rent: RswiftResources.StringResource { .init(key: "home_screen_toggle_option_rent", tableName: "Localizable", source: source, developmentValue: "I need to rent", comment: nil) }
+
       /// en translation: Welcome
       ///
       /// Key: welcome_message
@@ -81,20 +95,32 @@ struct _R {
     }
   }
 
-  /// This `_R.color` struct is generated, and contains static references to 1 colors.
+  /// This `_R.color` struct is generated, and contains static references to 2 colors.
   struct color {
     let bundle: Foundation.Bundle
 
     /// Color `AccentColor`.
     var accentColor: RswiftResources.ColorResource { .init(name: "AccentColor", path: [], bundle: bundle) }
+
+    /// Color `primaryBackground`.
+    var primaryBackground: RswiftResources.ColorResource { .init(name: "primaryBackground", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 1 images.
+  /// This `_R.image` struct is generated, and contains static references to 4 images.
   struct image {
     let bundle: Foundation.Bundle
 
+    /// Image `icon_rating`.
+    var icon_rating: RswiftResources.ImageResource { .init(name: "icon_rating", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
     /// Image `locationPin`.
     var locationPin: RswiftResources.ImageResource { .init(name: "locationPin", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `placeholder_image`.
+    var placeholder_image: RswiftResources.ImageResource { .init(name: "placeholder_image", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `search-icon`.
+    var searchIcon: RswiftResources.ImageResource { .init(name: "search-icon", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
   }
 
   /// This `_R.entitlements` struct is generated, and contains static references to 0 properties.

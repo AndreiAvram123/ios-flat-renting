@@ -1,3 +1,5 @@
 
 "welcome_message" = "Welcome";
 "home_screen_header_find_your_place" = "Find your place in";
+"home_screen_toggle_option_rent" = "I need to rent";
+"home_screen_toggle_option_buy" = "I need to buy";
